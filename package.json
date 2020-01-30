@@ -1,0 +1,34 @@
+{
+  "name": "eth-net-intelligence-api",
+  "description": "Ethereum Network Intelligence API",
+  "version": "0.1.2",
+  "main": "./app.js",
+  "directories": {
+    "lib": "./lib"
+  },
+  "scripts": {
+    "start": "node ./app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ethercore/eth-net-intelligence-api.git"
+  },
+  "author": "EtherCore Contributor <info@ethercore.org>",
+  "license": "LGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/ethercore/eth-net-intelligence-api/issues"
+  },
+  "homepage": "https://github.com/ethercore/eth-net-intelligence-api",
+  "dependencies": {
+    "async": "2.6.1",
+    "chalk": "^2.4.2",
+    "debounce": "^1.2.0",
+    "debug": "^4.1.1",
+    "lodash": "^4.17.15",
+    "primus": "^7.3.4",
+    "primus-emit": "^1.0.0",
+    "primus-spark-latency": "^0.1.1",
+    "web3": "0.20.7",
+    "ws": "^7.2.0"
+  }
+}
